@@ -1,0 +1,45 @@
+body{
+    background: rgb(14, 14, 14);
+}
+.stikey{
+    position: fixed;
+    width: 100;
+    z-index: 1;
+    left: 0;
+}
+.navb{
+    color: white;
+    background-color:rgba(0, 0, 0, 0.431);
+    min-height: 70px;
+    min-width: 550px;
+    display: flex;
+    border-radius: 5px;
+}
+.navb ul{
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+.navb ul li{
+    margin-right: 35px;
+    font-weight: 700;
+    list-style: none;
+    background: none;
+    font-family: sans-serif;
+    font-size: 13px;
+    letter-spacing: 1.1px;
+    cursor: pointer;
+    transition:all .5s ease-out;
+}
+.logo{
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+.navb ul li:hover{
+    color: aqua;
+    transform: scale(1.1);
+}
+.logo img{
+    width: 110px;
+}
